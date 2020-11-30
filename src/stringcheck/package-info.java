@@ -1,0 +1,5 @@
+/**
+ * @author liuqiyuan
+ *
+ */
+package stringcheck;

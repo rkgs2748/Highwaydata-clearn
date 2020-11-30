@@ -1,0 +1,16 @@
+﻿id:OBU序号编码：标准长度为16个字符，OBU序号编码(id)=省级区划(2)+运营商序号(2)+内部编号(12)
+brand:OBU品牌：标准格式为1位或2位整型数字(品牌：1-16)
+model:OBU型号：字符串类型，不超过100个字符
+userId:客户编号：标准长度为17个字符，客户编号(id)=发行方编号(6)+开户年月日(6)+流水顺序码(5)
+vehicleId:车辆编号：标准长度为9个字符，车辆编号(id)=车牌号码(7)+间隔符(1)+车牌颜色(1)(间隔符："_"，车牌颜色1位数字：0-6 or 9)
+enableTime:OBU启用时间：字符串类型，标准格式为：YYYY-MM-DDTHH：mm：ss(19)
+expireTime:OBU到期时间：字符串类型，标准格式为：YYYY-MM-DD(10)
+registeredType:OBU注册方式：标准格式为1位整型数字(1-线上，2-线下)
+registeredChannelId:OBU注册渠道编号：字符串类型，标准长度为15或19个字符，若OBU注册方式为线下注册，则填写服务网点编号(19);若OBU注册方式为线上注册，则填写线上服务渠道编号(15)
+registeredTime:OBU注册时间：字符串类型，标准格式为：YYYY-MM-DDTHH：mm：ss(19)
+installType:OBU安装方式：标准格式为1位整型数字(1-自行安装，2-网点安装)
+installChannelId:OBU安装/激活地点：字符串类型，标准长度为19或1个字符，若OBU安装方式为网点安装，请填写网点编号，若OBU安装方式为自行安装，请填写"0"
+installTime:OBU安装/激活时间：字符串类型，标准格式为：YYYY-MM-DDTHH：mm：ss(19)
+status:OBU状态：标准格式为1位整型数字(状态：1-8)
+statusChangeTime:OBU状态变更时间：字符串类型，标准格式为：YYYY-MM-DDTHH：mm：ss(19)
+operation:操作：标准格式为1位整型数字(1-新增，2-变更，3-删除)

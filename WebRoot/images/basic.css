@@ -1,0 +1,14 @@
+body { font-size:13px;background:#ffffff }
+
+.table1 {  border:#C1C1C1 solid; border-width:1 0 0 1; background:#ffffff }
+.td1 { border:#C1C1C1 solid; border-width:0 1 1 0; }
+.table2 { border:1px solid #BDBDBD; }
+.td2 { border:none; }
+.tdhead{height:25px; font-weight: bold; text-align:center; border:#C1C1C1 solid; border-width:0 1 1 0; background:url(../right_files/mtitle.gif) }
+
+a:link {text-decoration: none;}
+a:visited {text-decoration: none;}
+a:hover {text-decoration: underline;}
+a:active {text-decoration: none;}
+
+.fmargin{margin:0, 0, 5, 0 }
