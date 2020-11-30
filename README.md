@@ -9,17 +9,17 @@
 
 
 # 需要配置的环境
-Tomcat
+    Tomcat
 
-Jdk15或者8以上
+    Jdk15或者8以上
 
 # 使用的IDE
 
-IDEA
+   IDEA
 
 # 使用的语言
 
-Java SCript
-CSS
-JAVA
-HTML
+     Java SCript
+     CSS
+     JAVA
+     HTML
